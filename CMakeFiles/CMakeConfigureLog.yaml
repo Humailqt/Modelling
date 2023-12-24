@@ -1,0 +1,413 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+      ‘Ў®аЄ  ­ з в  24.12.2023 17:33:41.
+      
+      Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      PrepareForBuild:
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ‘®§¤ ­ЁҐ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ” ©« "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      
+      ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+          ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+          ЋиЁЎ®Є: 0
+      
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.66
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/3.28.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+      ‘Ў®аЄ  ­ з в  24.12.2023 17:33:41.
+      
+      Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      PrepareForBuild:
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
+        ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ‘®§¤ ­ЁҐ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ” ©« "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+        ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      
+      ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+          ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+          ЋиЁЎ®Є: 0
+      
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.51
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/3.28.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-1wf21r"
+      binary: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-1wf21r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-1wf21r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22737.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  24.12.2023 17:33:42.
+        
+        Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wf21r\\cmTC_22737.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_22737.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wf21r\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_22737.dir\\Debug\\cmTC_22737.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_22737.dir\\Debug\\cmTC_22737.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_22737.dir\\Debug\\cmTC_22737.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22737.dir\\Debug\\\\" /Fd"cmTC_22737.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.34.31948 ¤«п x64
+          CMakeCCompilerABI.c
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22737.dir\\Debug\\\\" /Fd"cmTC_22737.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wf21r\\Debug\\cmTC_22737.exe" /INCREMENTAL /ILK:"cmTC_22737.dir\\Debug\\cmTC_22737.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-1wf21r/Debug/cmTC_22737.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-1wf21r/Debug/cmTC_22737.lib" /MACHINE:X64  /machine:x64 cmTC_22737.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_22737.vcxproj -> G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wf21r\\Debug\\cmTC_22737.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_22737.dir\\Debug\\cmTC_22737.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_22737.dir\\Debug\\cmTC_22737.tlog\\cmTC_22737.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wf21r\\cmTC_22737.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-pevrt8"
+      binary: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-pevrt8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-pevrt8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96ec0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  24.12.2023 17:33:43.
+        
+        Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pevrt8\\cmTC_96ec0.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_96ec0.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pevrt8\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_96ec0.dir\\Debug\\cmTC_96ec0.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_96ec0.dir\\Debug\\cmTC_96ec0.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_96ec0.dir\\Debug\\cmTC_96ec0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_96ec0.dir\\Debug\\\\" /Fd"cmTC_96ec0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.34.31948 ¤«п x64
+          CMakeCXXCompilerABI.cpp
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_96ec0.dir\\Debug\\\\" /Fd"cmTC_96ec0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pevrt8\\Debug\\cmTC_96ec0.exe" /INCREMENTAL /ILK:"cmTC_96ec0.dir\\Debug\\cmTC_96ec0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-pevrt8/Debug/cmTC_96ec0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-pevrt8/Debug/cmTC_96ec0.lib" /MACHINE:X64  /machine:x64 cmTC_96ec0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_96ec0.vcxproj -> G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pevrt8\\Debug\\cmTC_96ec0.exe
+        FinalizeBuildStatus:
+          ” ©« "cmTC_96ec0.dir\\Debug\\cmTC_96ec0.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_96ec0.dir\\Debug\\cmTC_96ec0.tlog\\cmTC_96ec0.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pevrt8\\cmTC_96ec0.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        
+        ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 0
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.48
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "G:/lib/VTK-9.3.0/build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-l7ucwo"
+      binary: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-l7ucwo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/patches/99;G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-l7ucwo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_06ed7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  24.12.2023 17:34:00.
+        
+        Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\cmTC_06ed7.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_06ed7.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_06ed7.dir\\Debug\\cmTC_06ed7.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_06ed7.dir\\Debug\\cmTC_06ed7.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_06ed7.dir\\Debug\\cmTC_06ed7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06ed7.dir\\Debug\\\\" /Fd"cmTC_06ed7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\src.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.34.31948 ¤«п x64
+          src.c
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06ed7.dir\\Debug\\\\" /Fd"cmTC_06ed7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\src.c"
+        G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\src.c(1,10): fatal  error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: pthread.h: No such file or directory, [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\cmTC_06ed7.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\cmTC_06ed7.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\cmTC_06ed7.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+          G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\src.c(1,10): fatal  error C1083: ЌҐ г¤ Ґвбп ®вЄалвм д ©« ўЄ«озҐ­ЁҐ: pthread.h: No such file or directory, [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7ucwo\\cmTC_06ed7.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "G:/lib/VTK-9.3.0/build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-yqif32"
+      binary: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-yqif32"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/patches/99;G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-yqif32'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92a34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  24.12.2023 17:34:00.
+        
+        Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\cmTC_92a34.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_92a34.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_92a34.dir\\Debug\\cmTC_92a34.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_92a34.dir\\Debug\\cmTC_92a34.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_92a34.dir\\Debug\\cmTC_92a34.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92a34.dir\\Debug\\\\" /Fd"cmTC_92a34.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\CheckFunctionExists.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.34.31948 ¤«п x64
+          CheckFunctionExists.c
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92a34.dir\\Debug\\\\" /Fd"cmTC_92a34.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\Debug\\cmTC_92a34.exe" /INCREMENTAL /ILK:"cmTC_92a34.dir\\Debug\\cmTC_92a34.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-yqif32/Debug/cmTC_92a34.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-yqif32/Debug/cmTC_92a34.lib" /MACHINE:X64  /machine:x64 cmTC_92a34.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ­Ґ г¤ Ґвбп ®вЄалвм д ©« "pthreads.lib" [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\cmTC_92a34.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\cmTC_92a34.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\cmTC_92a34.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв Link) -> 
+          LINK : fatal error LNK1104: ­Ґ г¤ Ґвбп ®вЄалвм д ©« "pthreads.lib" [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqif32\\cmTC_92a34.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "G:/lib/VTK-9.3.0/build/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-d2stqv"
+      binary: "G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-d2stqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3/patches/99;G:/lib/VTK-9.3.0/build/lib/cmake/vtk-9.3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-d2stqv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2aba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ‚ҐабЁп MSBuild 17.8.3+195e7f5a3 ¤«п .NET Framework
+        ‘Ў®аЄ  ­ з в  24.12.2023 17:34:01.
+        
+        Џа®ҐЄв "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\cmTC_e2aba.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        PrepareForBuild:
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e2aba.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e2aba.dir\\Debug\\cmTC_e2aba.tlog\\".
+        InitializeBuildStatus:
+          ‘®§¤ ­ЁҐ "cmTC_e2aba.dir\\Debug\\cmTC_e2aba.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ЋЎа йҐ­ЁҐ Є "cmTC_e2aba.dir\\Debug\\cmTC_e2aba.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2aba.dir\\Debug\\\\" /Fd"cmTC_e2aba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\CheckFunctionExists.c"
+          ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.34.31948 ¤«п x64
+          CheckFunctionExists.c
+          (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2aba.dir\\Debug\\\\" /Fd"cmTC_e2aba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\Debug\\cmTC_e2aba.exe" /INCREMENTAL /ILK:"cmTC_e2aba.dir\\Debug\\cmTC_e2aba.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-d2stqv/Debug/cmTC_e2aba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/prj/vtk/vtk-v9.3.0/Examples/Modelling/Cxx/build/CMakeFiles/CMakeScratch/TryCompile-d2stqv/Debug/cmTC_e2aba.lib" /MACHINE:X64  /machine:x64 cmTC_e2aba.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ­Ґ г¤ Ґвбп ®вЄалвм д ©« "pthread.lib" [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\cmTC_e2aba.vcxproj]
+        ‘Ў®аЄ  Їа®ҐЄв  "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\cmTC_e2aba.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+        
+        ЋиЁЎЄ  бЎ®аЄЁ.
+        
+        "G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\cmTC_e2aba.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+        (–Ґ«Ґў®© ®ЎкҐЄв Link) -> 
+          LINK : fatal error LNK1104: ­Ґ г¤ Ґвбп ®вЄалвм д ©« "pthread.lib" [G:\\prj\\vtk\\vtk-v9.3.0\\Examples\\Modelling\\Cxx\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d2stqv\\cmTC_e2aba.vcxproj]
+        
+            ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+            ЋиЁЎ®Є: 1
+        
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.38
+        
+      exitCode: 1
+...
